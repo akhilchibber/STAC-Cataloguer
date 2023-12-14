@@ -100,7 +100,7 @@ IMDF data must conform to specific Apple-defined standards. Our extraction proce
 <p align="center">
   <img src="https://github.com/akhilchibber/STAC-Cataloguer/blob/main/conclusion.jpg?raw=true" alt="earthml Logo">
 </p>
-This Github Repository serves as an expanded guide to the specifics of the SpatioTemporal Asset Catalog (STAC) information that our Python-based function using an API End-Point extracts from different types of data formats. This now includes Vector datasets (.geojson, .las, and .fgp), Raster datasets (Geo-Tiff in .tif format), Non-Geospatial images (JPEG and PNG), and the recently included Indoor Mapping Data Format (IMDF).
+This Github Repository serves as an expanded guide to the specifics of the SpatioTemporal Asset Catalog (STAC) information that our Python-based function using an API End-Point extracts from different types of data formats. This now includes Vector datasets (.geojson, .las, and .fgp), Raster datasets (Geo-Tiff in .tif format), Non-Geospatial images (JPEG and PNG), and the recently included Indoor Mapping Data Format (IMDF).   
 
 Each data format contributes a distinct set of information to the STAC Asset, ranging from standard metadata like location and data type, to more format-specific details such as grid structure for raster data, camera details for non-geospatial images, and structural details from IMDF. The inclusion of IMDF further showcases our commitment to provide a robust and diverse STAC Catalog, enhancing our understanding and usability of the data we work with. It's important to note that the support for additional formats or the extraction of more extensive information will require updating our Python function and this Github Repository accordingly.
 
