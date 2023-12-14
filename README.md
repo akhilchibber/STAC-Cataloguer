@@ -25,7 +25,7 @@ The Vector datasets that we are handling include the formats  .geojson, .las, an
 
 1.4. Number of Features: We retrieve the total count of features in the dataset.
 
-
+<br><br>
 ## 2. Raster Dataset:
 <p align="center">
   <img src="https://github.com/akhilchibber/STAC-Cataloguer/blob/main/raster_data.png?raw=true" alt="earthml Logo">
@@ -44,7 +44,7 @@ For Raster datasets, we are specifically working with the Geo-Tiff datasets in t
 
 2.6. Band Information: For multi-band raster datasets, we extract band-related information including (i) Number of Bands, (ii) Band Names, and (iii) Band Statistics.
 
-
+<br><br>
 ## 3. Non-Geospatial Images:
 <p align="center">
   <img src="https://github.com/akhilchibber/STAC-Cataloguer/blob/main/jpeg_png.png?raw=true" alt="earthml Logo">
@@ -64,12 +64,12 @@ For Non-Geospatial images, we are including PNG and JPEG file formats captured b
 
 3.6. Image Details: We also extract certain image-related information, including (i) Image Dimensions, (ii) Color Space, and (iii) Compression.
 
- 
+ <br><br>
 Note: Handling Images Without Geolocation Data
 
 In handling non-geospatial assets like JPEG and PNG files, we assign a default geohash '7zzzzzzzzz' to represent a bounding box around the point (0,0) with a precision of 10. This is a workaround that allows us to incorporate these assets into our STAC Catalog while maintaining our Item ID structure ("cellid_vpnid"). Consequently, for non-geospatial data, the STAC Item ID will take the format "7zzzzzzzzz_vpnid". This approach adheres to the STAC specifications but is subject to revisions as we explore optimal methods for handling non-geospatial data.
 
-
+<br><br>
 ## 4. Indoor Mapping Data Format (IMDF) (Not Supported in Cataloguer Services yet)
 <p align="center">
   <img src="https://github.com/akhilchibber/STAC-Cataloguer/blob/main/imdf.png?raw=true" alt="earthml Logo">
@@ -90,12 +90,12 @@ Indoor Mapping Data Format (IMDF) is a data model Apple introduced to represent 
 
 4.7. Feature Count: We count the total number of features within the IMDF dataset.
 
- 
+<br><br>
 Note: IMDF Validation
 
 IMDF data must conform to specific Apple-defined standards. Our extraction process will run an IMDF validation and report on the compliance of the data, identifying any issues that need to be addressed.
 
-
+<br><br>
 ## Conclusion:
 <p align="center">
   <img src="https://github.com/akhilchibber/STAC-Cataloguer/blob/main/conclusion.jpg?raw=true" alt="earthml Logo">
