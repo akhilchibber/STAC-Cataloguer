@@ -9,7 +9,7 @@ In our current scenario, we are focusing on four principal categories of data fo
 ### 3. Non-Geospatial Images
 ### 4. Indoor Mapping Data Format (IMDF)
 
-
+<br><br>
 ## 1. Vector Dataset:
 <p align="center">
   <img src="https://github.com/akhilchibber/STAC-Cataloguer/blob/main/vector_data.png?raw=true" alt="earthml Logo">
