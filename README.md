@@ -47,7 +47,7 @@ For Raster datasets, we are specifically working with the Geo-Tiff datasets in t
 
 ## 3. Non-Geospatial Images:
 <p align="center">
-  <img src="https://github.com/akhilchibber/STAC-Cataloguer/blob/main/jpg_png.png?raw=true" alt="earthml Logo">
+  <img src="https://github.com/akhilchibber/STAC-Cataloguer/blob/main/jpeg_png.png?raw=true" alt="earthml Logo">
 </p>
 
 For Non-Geospatial images, we are including PNG and JPEG file formats captured by mobile cameras. Despite not being traditional geospatial datasets, from these image files we are capturing the following metadata:
