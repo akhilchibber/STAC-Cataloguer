@@ -105,3 +105,9 @@ This Github Repository serves as an expanded guide to the specifics of the Spati
 Each data format contributes a distinct set of information to the STAC Asset, ranging from standard metadata like location and data type, to more format-specific details such as grid structure for raster data, camera details for non-geospatial images, and structural details from IMDF. The inclusion of IMDF further showcases our commitment to provide a robust and diverse STAC Catalog, enhancing our understanding and usability of the data we work with. It's important to note that the support for additional formats or the extraction of more extensive information will require updating our Python function and this Github Repository accordingly.
 
 As always, we highly value any feedback and encourage readers to leave comments about potential improvements to our cataloging mechanism. Our commitment to keeping up with technological advancements and supporting more formats in the future is driven by our ideas and needs. Please do not hesitate to contribute any possible thoughts and concerns.
+
+## Contact
+
+Author - Akhil Chhibber
+
+LinkedIn: https://www.linkedin.com/in/akhilchhibber/
