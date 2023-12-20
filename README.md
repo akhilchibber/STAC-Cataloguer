@@ -108,6 +108,6 @@ As always, we highly value any feedback and encourage readers to leave comments 
 
 ## Contact
 
-Author - Akhil Chhibber
+Author: Akhil Chhibber
 
 LinkedIn: https://www.linkedin.com/in/akhilchhibber/
