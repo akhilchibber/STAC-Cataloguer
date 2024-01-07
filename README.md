@@ -1,4 +1,7 @@
 # STAC Asset Information Extraction: A Comprehensive Guide
+<p align="center">
+  <img src="https://github.com/akhilchibber/STAC-Cataloguer/blob/main/STAC.png?raw=true" alt="earthml Logo">
+</p>
 
 In this Github Repository, we aim to provide a clear overview of the specific STAC asset information we obtain from each data format, including (i) Vector, (ii) Raster, (iii) Non-Geospatial formats, and (iv) Indoor Mapping Data Format (IMDF). Our tool of choice is a Python function that follows the standardized STAC specifications to extract asset information. We aren't discussing the mechanics of extraction, but rather focusing on the specifics of the output: the metadata derived from these diverse data formats. This page serves as a comprehensive guide to understanding the information extracted within STAC assets across various data formats used at UNL. 
 
