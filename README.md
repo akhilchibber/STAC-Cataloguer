@@ -1,4 +1,4 @@
-# STAC Asset Information Extraction: A Comprehensive Guide
+# STAC Asset Information Extraction
 <p align="center">
   <img src="https://github.com/akhilchibber/STAC-Cataloguer/blob/main/Spatio-Temporal-Asset-Catalog.png?raw=true" alt="earthml Logo">
 </p>
